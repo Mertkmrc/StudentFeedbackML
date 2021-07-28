@@ -10,7 +10,7 @@ Since the data from EE 204 course was limited, IMDb's Large Movie Review Dataset
 
 ## Keyword Extraction
 
-
+To match the feedback with the video transcriptions, I've used cosine similarity method and calculated each transcription sentence's cosine similarity with input feedback. Then return the 6 sentences with the highest average cosine similarity. From my observations, matched texts with higher than 0.6 cosine similarity scores are meaningful to the input feedback. 
 
 ## Results
 
