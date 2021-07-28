@@ -2,6 +2,8 @@
 
 This project's main goal is to develop a feedback system where viewer can instantly get an answer while watching a video from a course video series using machine learning methods. For example, after student watched the video gives a feedback about the video, if they understood the content or not. Using sentiment analysis, system labels the feedback as positive(understood) or negative(not understood). If the label is negative, cosine similairty is calculated between student feedback and video transcriptions. Afterwards, according to cosine similarity calculations a section of the video is returned to the student implying that they should rewatch this part with more attention.
 
+Demo video without any explanation can be found [here](https://drive.google.com/file/d/1rNt5LDIPw395cAenD47yuzZHjBFJYbVY/view?usp=sharing)
+
 ## Dataset
 In this project, MEF University's EE 204 Signals and System Course's FLipped Learning videos and their transcripts are used as dataset. Due to confidentiality, I can only share percentile results.
 
