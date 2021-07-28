@@ -8,8 +8,19 @@ In this project, MEF University's EE 204 Signals and System Course's FLipped Lea
 ## Data processing
 Since the data from EE 204 course was limited, IMDb's Large Movie Review Dataset is used to pre-train the model on BERT Language Model (IMDb_training.ipynb). Afterwards, EE 204 Course data used to train the pre-trained model(Student_data_training.ipynb).
 
+## Keyword Extraction
 
 
+
+## Results
+
+
+After training the BERT Model on IMDb's Large Movie Review Dataset, validation accuracy is found as 0.916 and test accuracy is found as 0.9.
+
+After training Student's Feedback Data on pre-trained model, validation accuracy is found as 0.95 and test accuracy is found as 0.80. Reason behind the huge difference between validation and test accuracy is that, Student's Feedback Data is limited amount and majority of the feedbacks are, similiar to "no",  too short.
+
+
+For the Keyword Extraction Method, only 20% of the matched video sections had higher than 0.6 cosine similarity, which is due to limited data and majority of them being too short.
 
 
 
