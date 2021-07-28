@@ -1,6 +1,6 @@
 # Video-Feedback-System
 
-This project's main goal is to develop a feedback system where viewer can instantly get an answer while watching a video from a course video series using machine learning methods. For example, after student watched the video gives a feedback about the video, if they understood the content or not. Using sentiment analysis, system labels the feedback as positive(understood) or negative(not understood). If the label is negative, cosine similairty is calculated between student feedback and video transcriptions. Afterwards, according to cosine similarity calculations a section of the video is returned to the student implying that they should rewatch this part with more attention.
+This project's main goal is to develop a feedback system where viewer can instantly get an answer while watching a video from a course video series using machine learning methods. Let's say student watches a video and writes a feedback about the video to the system about their understandings. Using sentiment analysis, system labels the feedback as positive(understood) or negative(not understood). If the label is negative, cosine similairty is calculated between student feedback and video transcriptions. Afterwards, according to cosine similarity calculations a section of the video is returned to the student implying that they should rewatch this part with more attention.
 
 Demo video without any explanation can be found [here](https://drive.google.com/file/d/1rNt5LDIPw395cAenD47yuzZHjBFJYbVY/view?usp=sharing)
 
